@@ -14,5 +14,9 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return "Cheguei no router";
 });
+
+$router->get('/hello/','HelloController@sayHello');
+$router->get('/math/multTable/{number}','MathController@multiplicationTable');
+$router->get('/math/mult/{number}/{multiplier}/','MathController@multiplication');
