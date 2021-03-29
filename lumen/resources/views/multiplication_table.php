@@ -11,7 +11,7 @@
 <body>
     <table border="1" style="align-items: center; border: 1px solid black">
         <thead>
-            <td>math account</td>
+            <td>Math Account</td>
             <td>Result</td>
         </thead>
         <tbody>
